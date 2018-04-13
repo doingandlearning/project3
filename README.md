@@ -1,9 +1,9 @@
 # Unicorn Issue Tracker
 
-- Service and bug fixes for free
-- Ask for money for additional features
+## Service and bug fixes for free
+## Ask for money for additional features
 
-- As a user, I hould be able to submit an issue.
+- As a user, I should be able to submit an issue.
 - As a user, I should be able to track an issue.
 
 - Basic entity is a ticket
