@@ -1,0 +1,19 @@
+{
+  "name": "issue_tracker",
+  "version": "1.0.0",
+  "description": "issue tracker - written in django and js",
+  "main": "index.js",
+  "repository" :
+  { "type" : "git"
+  , "url" : "http://www.github.com/doingandlearning/project3"
+  },
+  "dependencies": {
+    "bulma": "^0.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
