@@ -38,6 +38,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    # 3rd Party
+    'django.contrib.sites',  # Required for determining domain url for use in emails
+    'django.contrib.humanize',  # Required for elapsed time formatting
+    'markdown_deux',  # Required for Knowledgebase item formatting
+    'bootstrapform', # Required for nicer formatting of forms with the default templates
+    'helpdesk',  
     # custom
 
     'polls.apps.PollsConfig',
@@ -66,6 +72,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                "django.template.context_processors.request",
             ],
         },
     },
@@ -126,3 +133,20 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = '../static/'
+
+MEDIA_ROOT = '../media'
+
+LOGIN_URL = '/helpdesk/login/'
+
+SITE_ID = 1
+
+## Helpdesk settings
+
+HELPDESK_DEFAULT_SETTINGS = {
+        'use_email_as_submitter': True,
+        'email_on_ticket_assign': True,
+        'email_on_ticket_change': True,
+        'login_view_ticketlist': True,
+        'tickets_per_page': 25
+        }

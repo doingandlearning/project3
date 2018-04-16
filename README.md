@@ -1,13 +1,17 @@
 # Unicorn Issue Tracker
 
+Created poll app to be adapted for up-voting features.
+
+Included and configured django-helpdesk.  Will adapt this for needs going forward.
+
 ## Service and bug fixes for free
 ## Ask for money for additional features
 
-- As a user, I should be able to submit an issue.
-- As a user, I should be able to track an issue.
+- x As a user, I should be able to submit an issue.
+- x As a user, I should be able to track an issue.
 
-- Basic entity is a ticket
-- Users should be able to create tickets.
+- x Basic entity is a ticket
+- x Users should be able to create tickets.
 - Users should be able to comment on tickets.
 - Users should be able to see the status of tickets
 - Tickets should be in two types - bug or features
