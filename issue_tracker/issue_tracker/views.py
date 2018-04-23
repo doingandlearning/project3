@@ -6,5 +6,5 @@ from django.views import generic
 
 # Create your views here.
 def index(request):
-    return render(request, 'bulma_base.html')
+    return render(request, 'home.html')
 

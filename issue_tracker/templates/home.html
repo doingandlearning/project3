@@ -1,0 +1,61 @@
+{% extends 'base.html' %} {% block title %} Issue Tracker {% endblock %} {% block content %}
+{% load static %}
+<section class="hero is-medium is-primary is-bold">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+         Killer App: Issue Tracker
+        </h1>
+        <h2 class="subtitle">
+          Log an issue, request a feature
+        </h2>
+      </div>
+    </div>
+  </section>
+<br/>
+  <div class="tile is-ancestor">
+      <div class="tile is-vertical is-8">
+        <div class="tile">
+          <div class="tile is-parent is-vertical">
+            <article class="tile is-child notification is-primary">
+              <p class="title">Log an Issue</p>
+              <p class="subtitle">Found a problem? Want to track a problem you've found before?</p>
+            </article>
+            <article class="tile is-child notification is-warning">
+              <p class="title">The Stats</p>
+              <p class="subtitle">Who doesn't want to follow the issue, feature and pull request stats?</p>
+            </article>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child notification is-info">
+              <p class="title">Request a Feature</p>
+              <p class="subtitle">Is there a killer feature you'd like to see implemented?</p>
+              <figure class="image is-4by3">
+                <img src="https://cdn.vox-cdn.com/uploads/chorus_image/image/57707123/Polygon500greatestgames.0.jpg">
+              </figure>
+            </article>
+          </div>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child notification is-danger">
+            <p class="title">Brought to you by Kevin Cunningham</p>
+            <p class="subtitle">A web developer working in Brighton. Language agnostic. Looking for the best solutions to every problem.</p>
+            <div class="content">
+              <!-- Content -->
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child notification is-success">
+          <div class="content">
+            <p class="title">Killer App</p>
+            <p class="subtitle">This is the best app ever, supported in the best way ever</p>
+            <div class="content">
+              <!-- Content -->
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+{% endblock %}
