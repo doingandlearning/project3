@@ -118,7 +118,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'en-gb'
 
 TIME_ZONE = 'UTC'
 
@@ -137,7 +137,7 @@ STATIC_ROOT = '../static/'
 
 MEDIA_ROOT = '../media'
 
-LOGIN_URL = '/helpdesk/login/'
+LOGIN_URL = '/admin'
 
 SITE_ID = 1
 
